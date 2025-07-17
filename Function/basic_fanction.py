@@ -1,51 +1,43 @@
-# # Function define করার সময় → Parameter
+# Function define করার সময় → Parameter
 
-# # Function call করার সময় → Argument
-
-
-# #basic function
-# def my_function(name1 , name2):
-#   print(f"Hi {name1} ! Hi {name2}")
+# Function call করার সময় → Argument
 
 
-# my_function("masum","noman")
+#basic function
+def my_function(name1 , name2):
+  print(f"Hi {name1} ! Hi {name2}")
 
 
-# # do not know how many arguments
-# # the function will receive a tuple of arguments
-
-# def you_function(*nums):
-#   print("Hello", nums[2])
-
-# you_function("masum","noman","shafi")  
+my_function("masum","noman")
 
 
-# # Keyword Arguments
-# # argument গুলোর নাম অবশ্যই parameter এর নামের সঙ্গে মিলতে হবে
+# do not know how many arguments
+# the function will receive a tuple of arguments
 
-# def his_function(child3, child1, child2):
-#   print("His name is",child1)
-#   print("His name is",child2)
-#   print("His name is",child3)
+def you_function(*nums):
+  print("Hello", nums[2])
 
-# his_function(child1 = "Harry" , child2 = "Akash", child3 = "Nipu")
+you_function("masum","noman","shafi")  
 
 
-# # Arbitrary Keyword Arguments
-# # do not know how many keyword arguments that will be passed into your function
-# # the function will receive a dictionary of arguments
+# Keyword Arguments
+# argument গুলোর নাম অবশ্যই parameter এর নামের সঙ্গে মিলতে হবে
 
-# def her_function(**child):
-#   print("His name is", child["child1"])
+def his_function(child3, child1, child2):
+  print("His name is",child1)
+  print("His name is",child2)
+  print("His name is",child3)
 
-# her_function(child1 = "masum", child2 = "shafi")
+his_function(child1 = "Harry" , child2 = "Akash", child3 = "Nipu")
 
 
-# return value
+# Arbitrary Keyword Arguments
+# do not know how many keyword arguments that will be passed into your function
+# the function will receive a dictionary of arguments
 
-def return_function(nums):
-  return("Hello " + nums)
+def her_function(**child):
+  print("His name is", child["child1"])
 
-a = return_function("masum")
+her_function(child1 = "masum", child2 = "shafi")
 
-print(a)
+
