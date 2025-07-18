@@ -1,15 +1,37 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
-int main() {
-  int n;
-  cout << "Enter n : ";
-  cin >> n;
-  for (int i = 1; i <= n; i++)
+string greatest(int x, int y, int z)
+{
+  if (x > y && x > z)
   {
-    cout << (n - i, ' ') << (2 * i - 1, '*') << endl;
+    return "x is greatest";
   }
-  
+  else if (y > x && y > z)
+  {
+    return "y is greatest";
+  }
+  else
+  {
+    return "z is greatest";
+  }
+}
+
+int main()
+{
+  int x, y, z;
+
+  cout << "Enter x: ";
+  cin >> x;
+
+  cout << "Enter y: ";
+  cin >> y;
+
+  cout << "Enter z: ";
+  cin >> z;
+
+  string result = greatest(x, y, z);
+  cout << result << endl;
+
   return 0;
 }
