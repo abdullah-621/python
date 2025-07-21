@@ -15,6 +15,3 @@ print("Divide is : ", a / b)
 print("mod is : ", a % b)
 
 print("Square of a is : ", a**2)
-
-
-
