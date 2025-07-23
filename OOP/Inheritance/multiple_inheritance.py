@@ -13,8 +13,8 @@ class Gender:
      print(f"{self.name} is a Male")
 
 
-
-class Programmer(Employee, Gender): # Multiple Inheritance
+# Multiple Inheritance
+class Programmer(Employee, Gender): 
   company = "Google"
 
   def work(self):

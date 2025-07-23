@@ -1,12 +1,11 @@
-struct Node
-{
-  // int data;
-  // int size;
-  // int *arr;
+#include <iostream>
+using namespace std;
 
-  Node(int n, int data, int size, int *arr){
-    data = n;
-    size = 0;
-    arr = new int[n];
-  }
-};
+int main() {
+  int a = 10;
+  int *b = &a;
+
+  cout << *b << endl;
+  
+  return 0;
+}

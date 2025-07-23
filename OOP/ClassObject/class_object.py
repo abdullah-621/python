@@ -1,4 +1,5 @@
 class masum:  # masum is a class name
+
   first_name = "Abdullah"  # class attribute
   last_name = "Masum"
   age = 22
