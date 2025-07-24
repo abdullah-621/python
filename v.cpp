@@ -1,11 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  int a = 10;
-  int *b = &a;
+int main()
+{
+  string arr[] = {"abdullah", "al", "masum"};
 
-  cout << *b << endl;
-  
+  // string s = "";
+
+  string s = "";
+  for (auto word : arr)
+  {
+    s += word;
+  }
+
+  cout << s;
   return 0;
 }
