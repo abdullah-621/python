@@ -1,4 +1,4 @@
-str = " abdullah al masum "
+str = " abdullah al masum al al"
 
 print(len(str))
 
@@ -24,7 +24,7 @@ print(str.replace("masum","noman")) # replace all occurence
 
 print("*".join(['a','b','c'])) #list বা অন্য iterable‑এর সব element‑কে একটি string‑এ জুড়ে দেয়, একটি নির্দিষ্ট separator (বিভাজক) দিয়ে
 
-print(str.find('al'))  # Finds index of first occurrence
+print("Find : ",str.find('al'))  # Finds index of first occurrence
 
 print(str.rfind('a'))  # Finds index of last occurrence
 
