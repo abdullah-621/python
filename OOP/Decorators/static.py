@@ -1,3 +1,6 @@
+# @staticmethod ডেকোরেটর Python-এ এমন মেথডের জন্য ব্যবহার করা হয় যেটা ক্লাসের ভেতরে থাকলেও, কোনো instance (অবজেক্ট) বা class variable-এর উপর নির্ভর করে না।
+
+
 class Car:
   def __init__(self,brand, model):
     self.__brand = brand  # __brand is private
