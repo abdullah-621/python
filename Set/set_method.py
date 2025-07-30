@@ -35,5 +35,3 @@ thisset.clear()
 print(thisset)
 del thisset
 print(thisset)
-
-
