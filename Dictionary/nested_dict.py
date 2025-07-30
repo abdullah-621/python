@@ -13,10 +13,11 @@ myfamily = {
   }
 }
 
-print(myfamily["child2"]["name"])
+# print(myfamily["child2"]["name"])
 
 for x,obj in myfamily.items():
-  print(x)
+  print(x ,":", obj)
 
+print()
 for y in myfamily:
   print(y + ":", myfamily[y])
