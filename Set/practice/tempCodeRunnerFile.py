@@ -1,0 +1,1 @@
+strs = ["w3ro", "w3resource"]
