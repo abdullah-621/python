@@ -1,0 +1,19 @@
+===== BILL =====
+mango - 5.0 x 70 = 350.0
+goyava - 4.0 x 60 = 240.0
+painaple - 3.0 x 50 = 150.0
+tumi - 155000.0 x 50 = 7750000.0
+ami - 80.0 x 60 = 4800.0
+
+---------------
+
+Total price : 7755540.0
+
+After 10.0% discount: 6979986.00 tk
+
+Afetr adding 4.0:7259185.44 tk
+
+Bill saved to bill.txt
+
+Happy Shopping ! 
+See you Again !

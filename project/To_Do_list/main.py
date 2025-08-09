@@ -19,7 +19,7 @@ class To_Do_List:
 
   def add_task(self):
     task = input("Enter new task :")
-    self.tasks.append({"task":task, "status":"Not Done"})
+    self.tasks.append({"task":task, "status":"⏳"})
     self.save_to_file()  # save to file
     print(f"{task} added successfully")
   
@@ -37,7 +37,7 @@ class To_Do_List:
     try:
       index = int(input("Enter task number which is complete :"))
       if 1 <= index <= len(self.tasks):
-        self.tasks[index - 1]['status'] = "Done"
+        self.tasks[index - 1]['status'] = "✅"
         self.save_to_file()
         print("Task mark as Done.")
       else:
