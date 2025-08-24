@@ -1,14 +1,16 @@
 #include <iostream>
-#include <deque>
+#include <vector>
 using namespace std;
 
-int main() {
-  deque<int> q;
+int main()
+{
+  double a = 3.5;
 
-  q.push_back(1);
-  q.push_back(2);
-  q.push_back(3);
+  int b = a;
 
-  cout << q[2];
+  double c = b;
+
+  cout << a << endl << b << endl << c;
+
   return 0;
 }
